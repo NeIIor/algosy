@@ -2,9 +2,6 @@
 #include <string>
 
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-
     unsigned long long N, K;
     if (!(std::cin >> N >> K)) return 0;
 
